@@ -1,0 +1,31 @@
+.footer {
+  width: 100vw;
+}
+
+.attribution {
+  position: absolute;
+  left: 50%;
+
+  transform: translate(-50%);
+  bottom: 1rem;
+}
+
+.rules__button {
+  position: absolute;
+  bottom: 1rem;
+  padding: 7px 25px;
+  right: 1rem;
+  border-radius: 0.4rem;
+  background: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.rules__button:hover {
+  transition: 0.4s;
+  color: #3b4262;
+  background: #ffffff;
+}

@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap");
+
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  background: radial-gradient(
+      134.34% 134.34% at 50% 0%,
+      #1f3757 0%,
+      #131537 100%
+    )
+    no-repeat center center fixed;
+}
+
+.icon {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: absolute;
+  height: 145px;
+  width: 145px;
+  border: 18px solid;
+  border-radius: 50%;
+  transition: transform 0.2s;
 }
 
-.App-link {
-  color: #61dafb;
+.icon:hover {
+  transform: scale(110%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.play__section-paper {
+  border: 36px solid #4664f4;
+  background: url("./images/icon-paper.svg") no-repeat center #ececec;
+}
+
+.play__section-rock {
+  border: 36px solid #db2e4d;
+  background: url("./images/icon-rock.svg") no-repeat center #ececec;
+}
+
+.play__section-lizard {
+  border: 36px solid #834ee3;
+  background: url("./images/icon-lizard.svg") no-repeat center #ececec;
+}
+
+.play__section-spock {
+  border: 36px solid #3fb7cd;
+  background: url("./images/icon-spock.svg") no-repeat center #ececec;
+}
+
+.play__section-scissors {
+  border: 36px solid #eb9f0e;
+  background: url("./images/icon-scissors.svg") no-repeat center #ececec;
+}
+
+.play__section-scissors,
+.play__section-spock,
+.play__section-lizard,
+.play__section-rock,
+.play__section-paper {
+  width: 300px;
+  height: 300px;
+  background-size: 100px;
+  position: static;
+}
+
+.play__section-scissors:hover,
+.play__section-spock:hover,
+.play__section-lizard:hover,
+.play__section-rock:hover,
+.play__section-paper:hover {
+  transform: scale(100%);
+}
+
+a{
+  color: #68bfde;
 }

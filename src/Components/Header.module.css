@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 48px auto auto;
+  width: 700px;
+  border: 3px solid rgba(255, 255, 255, 0.289199);
+  border-radius: 15px;
+  padding: 18px 24px 18px 33px;
+}
+
+.score__card {
+  text-align: center;
+  width: 150px;
+  background: linear-gradient(0deg, #f3f3f3 0%, #ffffff 100%);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.196706);
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.score__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.5px;
+  color: #2a45c2;
+}
+
+.score__value {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  text-align: center;
+  color: #565468;
+}

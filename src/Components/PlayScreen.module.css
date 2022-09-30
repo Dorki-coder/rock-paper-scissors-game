@@ -1,0 +1,56 @@
+.PlayScreen__wrapper {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 70px;
+}
+
+.houseChoice,
+.myChoice {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.empty__icon {
+  border-radius: 50%;
+  width: 224px;
+  height: 224px;
+  background: rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.playAgain__button {
+  /*text*/
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.5px;
+  color: #3b4262;
+  /*button*/
+  padding: 15px 62px 14px 60px;
+  border: none;
+  background: linear-gradient(0deg, #f3f3f3 0%, #ffffff 100%);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.196706);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.playAgain__title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 67px;
+  text-align: center;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.196706);
+}
+
+.playAgain__wrapper {
+  align-self: center;
+}
