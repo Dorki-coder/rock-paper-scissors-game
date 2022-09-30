@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "b5ee60d0e1eba3bc6977",
-    "url": "/rock-paper-scissors-game/static/css/main.b1f28d38.chunk.css"
+    "revision": "41062513e8a2dd729d17",
+    "url": "/rock-paper-scissors-game/static/css/main.33b04e95.chunk.css"
   },
   {
-    "revision": "b5ee60d0e1eba3bc6977",
-    "url": "/rock-paper-scissors-game/static/js/main.b5ee60d0.chunk.js"
+    "revision": "41062513e8a2dd729d17",
+    "url": "/rock-paper-scissors-game/static/js/main.41062513.chunk.js"
   },
   {
-    "revision": "a22bbc484073c2ca57ef",
-    "url": "/rock-paper-scissors-game/static/js/1.a22bbc48.chunk.js"
+    "revision": "2238bbb546fb05b9f800",
+    "url": "/rock-paper-scissors-game/static/js/1.2238bbb5.chunk.js"
   },
   {
     "revision": "15279d5f6e3aa6e5f72d",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/rock-paper-scissors-game/static/media/image-rules-bonus.d357f2dc.svg"
   },
   {
-    "revision": "b856dc8acd98d1a9ac29699daff37237",
+    "revision": "5af6b27e313114eae136cd1d0d168a44",
     "url": "/rock-paper-scissors-game/index.html"
   }
 ];
