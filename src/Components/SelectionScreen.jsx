@@ -1,6 +1,5 @@
 import React from "react";
 import s from "./SelectionScreen.module.css";
-import { Link } from "react-router-dom";
 
 import pentagon from "../images/bg-pentagon.svg";
 
@@ -9,26 +8,26 @@ function SelectionScreen({ setChoiceValue }) {
     <div className="container">
       <div className={s.pentagon__wrapper}>
         <img className={s.pentagon} src={pentagon} alt="pentagon"></img>
-        <Link
+        <div
           onClick={() => setChoiceValue("scissors")}
           className={`icon ${s.scissors}`}
-        ></Link>
-        <Link
+        ></div>
+        <div
           onClick={() => setChoiceValue("rock")}
           className={`icon ${s.rock}`}
-        ></Link>
-        <Link
+        ></div>
+        <div
           onClick={() => setChoiceValue("paper")}
           className={`icon ${s.paper}`}
-        ></Link>
-        <Link
+        ></div>
+        <div
           onClick={() => setChoiceValue("lizard")}
           className={`icon ${s.lizard}`}
-        ></Link>
-        <Link
+        ></div>
+        <div
           onClick={() => setChoiceValue("spock")}
           className={`icon ${s.spock}`}
-        ></Link>
+        ></div>
       </div>
     </div>
   );

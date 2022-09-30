@@ -17,11 +17,20 @@
   transform: translate(-50%, -50%);
 }
 
+.spock,
+.scissors,
+.lizard,
+.rock,
+.paper {
+  cursor: pointer;
+  background-size: 40%;
+  transform: rotate(-4deg);
+  border: 18px solid;
+}
+
 .paper {
   right: 0;
   top: 22%;
-  background-size: 40%;
-  transform: rotate(-4deg);
   border: 18px solid #4664f4;
   background: url("../images/icon-paper.svg") no-repeat center #ececec;
 }
@@ -29,8 +38,6 @@
 .rock {
   bottom: 0;
   right: 10%;
-  background-size: 40%;
-  transform: rotate(-4deg);
   border: 18px solid #db2e4d;
   background: url("../images/icon-rock.svg") no-repeat center #ececec;
 }
@@ -38,8 +45,6 @@
 .lizard {
   bottom: 0;
   left: 10%;
-  background-size: 40%;
-  transform: rotate(-4deg);
   border: 18px solid #834ee3;
   background: url("../images/icon-lizard.svg") no-repeat center #ececec;
 }
@@ -47,8 +52,6 @@
 .spock {
   top: 25%;
   left: 0;
-  background-size: 40%;
-  transform: rotate(-4deg);
   border: 18px solid #3fb7cd;
   background: url("../images/icon-spock.svg") no-repeat center #ececec;
 }
@@ -57,8 +60,6 @@
   top: 2%;
   left: 34%;
   right: 50%;
-  background-size: 40%;
-  transform: rotate(-4deg);
   border: 18px solid #eb9f0e;
   background: url("../images/icon-scissors.svg") no-repeat center #ececec;
 }
